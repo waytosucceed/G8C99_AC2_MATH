@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1100px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          width: 45%;
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+        <div class="lesson-title">Square Root By Prime Factorisation</div>
+
+        <div class="lesson-content">
+          <div>
+            <h3><u>
+              Prime Factorization
+              </u></h3>
+            <p>
+              Prime factorization is the process of expressing a number as a product of its prime factors. A prime number is a number greater than 1 that has no divisors other than 1 and itself (e.g., 2, 3, 5, 7, 11, etc.).
+              <br><br><b>Steps to Find the Square Root Using Prime Factorization</b>
+              <br>Let’s find the square root of 36 using the prime factorization method.
+              <br><br><b>Step1:</b> Factor the Number into Prime Factors
+            </p>
+            <ul>
+              <li>Start by dividing the number (36) by the smallest prime number (2) and continue dividing until you reach 1.
+                <br>36 ÷ 2 = 18
+                <br>18 ÷ 2 = 9
+                <br>9 ÷ 3 = 3
+                <br>3 ÷ 3 = 1
+              </li>
+            </ul>
+            <img src="./assests/explaination/1.png" alt="">
+            <p>So, the prime factorization of 36 is:</p>
+            <ul>
+              <li><b>36 = 2 × 2 × 3 × 3</b> or written in exponential form, <b>36 = 2² × 3²</b>.</li>
+            </ul>
+            <p><b>Step 2:</b>Pair the Prime Factors</p>
+            <ul>
+              <li>To find the square root, we look for pairs of the same prime factor.
+                <br>From <b>2² × 3²</b>, we have:</li>
+                <ul>
+                  <li>One pair of <b>2s</b> (2, 2)</li>
+                  <li>One pair of <b>3s</b> (3, 3)</li>
+                </ul>
+            </ul>
+            <p>36 = 2 × 2 × 3 × 3
+              <br>36 = 2<sup>2</sup> . 3<sup>2</sup>
+              <br><br>
+              <b>Step 3:</b>Take One Factor from Each Pair
+            </p>
+            <ul>
+              <li>For each pair, take one of the prime factors to find the square root.</li>
+            </ul>
+            <p>So, we take:</p>
+            <ul>
+              <li>One <b>2</b> from the pair of <b>2s</b>.</li>
+              <li>One <b>3</b> from the pair of <b>3s</b>.</li>
+            </ul>
+            <p><b>Step 4:</b> Multiply the Factors</p>
+            <ul>
+              <li>Now, multiply the factors you took from each pair together:</li>
+            </ul>
+            <p>√36 = 2 × 3 = 6
+              <br><br><b>Conclusion</b><br><br>So, the square root of <b>36</b> is <b>6</b>.
+              <br><br><b>Example 2:</b><br><br>
+              Find the square root of 1296 using prime factorisation method:
+<br>First find factors of 1296
+<img src="./assests/explaination/2.png" alt="">
+1296 = 2 × 2 × 2 × 2 × 3 × 3 × 3 × 3
+<br>1296 = 2<sup>4</sup> × 3<sup>4</sup>
+
+            </p>
+            <img src="./assests/explaination/3.png" alt="">
+            <p>
+              <b>Summary of Steps:</b>
+              <ol>
+                <li>Factor the number into its prime factors.</li>
+                <li>Pair the prime factors.</li>
+                <li>Take one factor from each pair.</li>
+                <li>Multiply these factors to find the square root.</li>
+              </ol>
+            </p>
+
+          </div>
+        </div>
+        <div class="button-container">
+          <a href="question.html" class="button">Next</a>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+[
+    {
+        "questionNo": "Q1",
+        "question": "Find Square root of 4900 using prime factorization method",
+        "options": [
+            "60",
+            "70",
+            "80",
+            "90"
+        ],
+        "correct": 1,
+        "explanation": ""
+    },
+    {
+        "questionNo": "Q2",
+        "question": "Find the suitable numbers to fill the blank and the square root of 78400<br><img width='80%' src='./assests/images/3.png'>",
+        "options": [
+            "a = 5, Sq. root = 270",
+            "a = 5, Sq. root = 280",
+            "a = 7, Sq. root = 280",
+            "a = 7, Sq. root = 270"
+        ],
+        "correct": 1,
+        "explanation": ""
+    },
+    {
+        "questionNo": "Q3",
+        "question": "Find square root of 2304",
+        "options": [
+            "44",
+            "58",
+            "54",
+            "48"
+        ],
+        "correct": 3,
+        "explanation": ""
+    },
+    {
+        "questionNo": "Q4",
+        "question": "Find square root of 90",
+        "options": [
+            "30",
+            "9",
+            "81",
+            "Not a Perfect Square"
+        ],
+        "correct": 3,
+        "explanation": "Since 2 and 5 are not in pairs, 90 is not a perfect square."
+    },
+    {
+        "questionNo": "Q5",
+        "question": "Find the smallest multiple of 2352 which is a perfect square and also find the square root of that perfect square",
+        "options": [
+            "Multiple = 4704, Root = 84",
+            "Multiple = 7056, Root = 84",
+            "Multiple = 7058, Root = 48",
+            "Multiple = 2352, Root = 48"
+        ],
+        "correct": 1,
+        "explanation": "2352=2×2×2×2×3×7×7. 3 is the smallest prime number that needs to be nominated and root = 84."
+    },
+    {
+        "questionNo": "Q6",
+        "question": "Find the smallest number 15680 must be divided so that the resulting number is a perfect square",
+        "options": [
+            "2",
+            "3",
+            "5",
+            "7"
+        ],
+        "correct": 2,
+        "explanation": "Therefore the number must be divided by 5 so it becomes a perfect square."
+    },
+    {
+        "questionNo": "Q7",
+        "question": "Find the smallest square number that is divisible by each of the numbers 4, 9 and 10",
+        "options": [
+            "900",
+            "3600",
+            "360",
+            "64"
+        ],
+        "correct": 0,
+        "explanation": "The LCM of 4, 9, and 10 is 180. To make it a perfect square, multiply by 5."
+    },
+    {
+        "questionNo": "Q8",
+        "question": "Find the smallest whole number by which 252 should be divided so as to get a perfect square.",
+        "options": [
+            "2",
+            "4",
+            "3",
+            "7"
+        ],
+        "correct": 3,
+        "explanation": "So 7 is the number from which it must be divided."
+    },
+    {
+        "questionNo": "Q9",
+        "question": "Find the square root of 2916",
+        "options": [
+            "56",
+            "54",
+            "44",
+            "46"
+        ],
+        "correct": 1,
+        "explanation": ""
+    },
+    {
+        "questionNo": "Q10",
+        "question": "2025 plants are to be planted in a garden in such a way that each row contains as many plants as the number of rows. Find the number of rows and the number of plants in each row",
+        "options": [
+            "45",
+            "55",
+            "50",
+            "40"
+        ],
+        "correct": 0,
+        "explanation": ""
+    },
+    {
+        "questionNo": "Q11",
+        "question": "Complete the Prime Factorisation method of finding the square root of 2704<br><img width='80%' src='./assests/images/1.png'>",
+        "options": [
+            "a = 3, b = 13",
+            "a = 4,  b = 13",
+            "a = 13, b = 1",
+            "a = 13, b = 13"
+        ],
+        "correct": 3,
+        "explanation": ""
+    },
+    {
+        "questionNo": "Q12",
+        "question": "Complete the Prime Factorisation method of finding the square root of 9216 and Also find the root<br><img width='80%' src='./assests/images/2.png'>",
+        "options": [
+            "a=2, b=3, Sq. root=96",
+            "a=3, b=2, Sq. root=94",
+            "a=2, b=1, Sq. root=92",
+            "a=3, b=1, Sq. root=96"
+        ],
+        "correct": 0,
+        "explanation": ""
+    }
+]
